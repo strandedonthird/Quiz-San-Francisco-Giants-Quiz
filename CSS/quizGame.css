@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Set main container to flexbox */
+#container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Main Header formatting */
+#header {
+    color: orange;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+    background-color: black;
+    border-bottom: 10px solid black;
+}
+
+/* format start button and highscore button */
+#startbutton, #highscorebutton {
+    font-size: 25px;
+    padding: 5px;
+    background-color: black;
+    color: orange;
+    border: 3px solid orange;
+    border-radius: 4px;
+}
+
+/* Game container flexbox and 70% width */
+#quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: orange;
+    padding: 10px;
+}
+
+/* Add padding to game content */
+#game-h1, #question, #answers {
+    padding: 15px;
+}
+
+/* Increase question fontsize */
+#question {
+    font-size: 20px;
+}
+
+/* Make list numbers inside */
+#answers {
+    list-style-position: inside;
+}
+
+/* format answer list items */
+li.li-answer {
+    position: relative;
+    padding: 3px;
+    font-size: 20px;
+    margin: 5px;
+    background-color: aliceblue;
+    color: black;
+    border: 3px solid black;
+    border-radius: 4px;
+}
+
+/* Highlight answer on hover */
+li.li-answer:hover, #startbutton:hover, #highscorebutton:hover {
+    background-color: white;
+    color: orange;
+}
+
+/* format Answer Alerts */
+#ans-alert {
+    color: orange;
+}
+
+/* format the highscore form */
+#highscoreform {
+    margin: 25px;
+}
+
+#highscoreform h1 {
+    margin: 15px;
+    color: orange;
+}
+
+/* Highscore Container Card */
+#hs-container {
+    text-align: center;
+    width: fit-content;
+    background-color: black;
+    color: orange;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#highscore {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+/* initially hide hs-form */
+#highscoreform {
+    display: none;
+}
+
+/* Size compatibility for small screens */
+@media screen and (max-width: 992px) {
+
+    /* Change main content to column display */
+    #main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Add a margin top to highscore card */
+    #hs-container {
+        margin-top: 100px;
+    }
+
+}
