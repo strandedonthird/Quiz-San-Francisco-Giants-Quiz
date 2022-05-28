@@ -30,7 +30,7 @@ var quizObj = [
     wrong: ["Tim Hudson", "Madison Bumgarner", "Tim Lincecum"]
 },
 {
-    question: "Who has the most postseason hits in San Francisco Giants history?",
+    question: "Who has the most postseason hits in the history of the San Francisco Giants?",
     true: "Buster Posey",
     wrong: ["Barry Bonds", "Pablo Sandoval", "Willie Mays"]
 },
