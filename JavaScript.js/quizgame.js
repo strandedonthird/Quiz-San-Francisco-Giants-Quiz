@@ -16,7 +16,7 @@ var quizObj = [
 },
 {
     question: "What was the first stadium the Giants played at in San Francisco?",
-    true: "Seal Stadium",
+    true: "Seals Stadium",
     wrong: ["Candlestick Park", "Pac Bell Park", "Oracle Park"]
 },
 {
