@@ -16,8 +16,8 @@ var quizObj = [
 },
 {
     question: "What was the first stadium the Giants played at in San Francisco?",
-    true: "Oracle Park",
-    wrong: ["Candlestick Park", "Pac Bell Park", "Seals Stadium"]
+    true: "Seal Stadium",
+    wrong: ["Candlestick Park", "Pac Bell Park", "Oracle Park"]
 },
 {
     question: "Which left-handed pitcher has the most wins in franchise history?",
