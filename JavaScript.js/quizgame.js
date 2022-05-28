@@ -32,7 +32,7 @@ var quizObj = [
 {
     question: "Who has the most postseason hits in San Francisco Giants history?",
     true: "Buster Posey",
-    wrong: ["Barry Bonds", "Pablo Sandoval", "Willie Mays?"]
+    wrong: ["Barry Bonds", "Pablo Sandoval", "Willie Mays"]
 },
 {
     question: "Who was the MVP in 2000?",
