@@ -1,4 +1,4 @@
-var quizObj = [
+var quizObject = [
 {
     question: "Who is the all-time San Francisco Giants Home Run Leader?",
     true: "Willie Mays",

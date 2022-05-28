@@ -9,13 +9,11 @@ body {
 }
 
 
-/* Set main container to flexbox */
 #container {
     display: flex;
     justify-content: space-around;
 }
 
-/* Main Header formatting */
 #header {
     color: orange;
     font-size: 80px;
@@ -28,7 +26,6 @@ body {
     border-bottom: 10px solid black;
 }
 
-/* format start button and highscore button */
 #startbutton, #highscorebutton {
     font-size: 25px;
     padding: 5px;
@@ -38,7 +35,6 @@ body {
     border-radius: 4px;
 }
 
-/* Game container flexbox and 70% width */
 #quiz {
     display: flex;
     flex-direction: column;
@@ -51,22 +47,18 @@ body {
     padding: 10px;
 }
 
-/* Add padding to game content */
 #game-h1, #question, #answers {
     padding: 15px;
 }
 
-/* Increase question fontsize */
 #question {
     font-size: 20px;
 }
 
-/* Make list numbers inside */
 #answers {
     list-style-position: inside;
 }
 
-/* format answer list items */
 li.li-answer {
     position: relative;
     padding: 3px;
@@ -78,18 +70,15 @@ li.li-answer {
     border-radius: 4px;
 }
 
-/* Highlight answer on hover */
 li.li-answer:hover, #startbutton:hover, #highscorebutton:hover {
     background-color: white;
     color: orange;
 }
 
-/* format Answer Alerts */
-#ans-alert {
+#answeralert {
     color: orange;
 }
 
-/* format the highscore form */
 #highscoreform {
     margin: 25px;
 }
@@ -99,8 +88,7 @@ li.li-answer:hover, #startbutton:hover, #highscorebutton:hover {
     color: orange;
 }
 
-/* Highscore Container Card */
-#hs-container {
+#highscorecontainer {
     text-align: center;
     width: fit-content;
     background-color: black;
@@ -115,23 +103,19 @@ li.li-answer:hover, #startbutton:hover, #highscorebutton:hover {
     line-height: 1.5;
 }
 
-/* initially hide hs-form */
 #highscoreform {
     display: none;
 }
 
-/* Size compatibility for small screens */
 @media screen and (max-width: 992px) {
 
-    /* Change main content to column display */
-    #main-container {
+    #container {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
-    /* Add a margin top to highscore card */
-    #hs-container {
+    
+    #highscorecontainer {
         margin-top: 100px;
     }
 
